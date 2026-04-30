@@ -1,0 +1,17 @@
+@"
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.bak
+*.old
+*.orig
+*.tmp
+*.zip
+*.gz
+*.sql
+*.xml
+*.env
+node_modules/
+.git/
+"@ | Set-Content ".gitignore"
